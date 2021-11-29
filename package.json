@@ -1,0 +1,15 @@
+{
+  "name": "typescript-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "start": "tsc --build && node dist/index.js"
+  },
+  "author": "Nathan Jones",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}
